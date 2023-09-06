@@ -42,7 +42,7 @@ const AppointmentFormSection = () => {
                           <input
                             name="email"
                             type="text"
-                            placeholder="Email Address"
+                            placeholder="Phone number"
                           />
                         </div>
                       </div>

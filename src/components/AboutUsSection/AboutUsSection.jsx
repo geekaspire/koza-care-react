@@ -108,10 +108,10 @@ const AboutUsSection = () => {
                     </div>
                     <div className="text">
                       <p>
-                        <span>Need helg?</span> Call us:
+                        <span>Need held?</span> Call us:
                       </p>
-                      <a href="tel:+123-456-7890">
-                        <h6>(+800) 1234 5678 90</h6>
+                      <a href="tel:+91 096 060 73175">
+                        <h6>(+91) 096 060 73175</h6>
                       </a>
                     </div>
                   </div>
