@@ -52,7 +52,7 @@ const AppointmentFormSection = () => {
                             name="date"
                             type="text"
                             id="datepicker"
-                            placeholder="mm / dd / yy"
+                            placeholder="MM / DD / YYYY"
                           />
                         </div>
                         <i className="icon-calendar"></i>
