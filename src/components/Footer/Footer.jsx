@@ -18,7 +18,7 @@ const Footer = () => {
               <div className="footer-about">
                 <div className="footer-widget-info">
                   <div className="footer-logo">
-                    <h2 className="footer-widget-title">About</h2>
+                    <h2 className="footer-widget-title">Koza Aesthetic Care</h2>
                   </div>
                   <p>
                     We are dedicated to unlocking your true radiance. Explore
@@ -70,7 +70,7 @@ const Footer = () => {
             </div>
             <div className="col-lg-2 col-md-6 col-sm-12">
               <div className="widget_nav_menu">
-                <h2 className="footer-widget-title">Policies</h2>
+                <h2 className="footer-widget-title">Important links</h2>
                 <ul>
                   <li>
                     <a href="#">Policies</a>

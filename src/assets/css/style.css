@@ -3748,10 +3748,10 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 
 .menu-sidebar-area {
-  position: fixed;
+  /* position: fixed; */
   right: -485px;
   top: 0;
-  width: 465px;
+  /* width: 465px; */
   height: 100%;
   background-color: #ffffff;
   overflow-y: scroll;
@@ -3760,7 +3760,7 @@ body.admin-bar .header-menu-area.sticky_menu {
 }
 @media (max-width: 560px) {
   .menu-sidebar-area {
-    width: 375px;
+    /* width: 375px; */
   }
 }
 .menu-sidebar-area .menu-sidebar-logo {
@@ -13338,3 +13338,16 @@ ul.children {
   transition: all 0.5s ease-out;
   color: #5680e9;
 } /*# sourceMappingURL=style.css.map */
+
+.blog-negative-margin {
+  margin-top: -300px;
+}
+
+@media only screen and (max-width: 768px) {
+  .blog-negative-margin {
+    margin-top: -1200px;
+  }
+  .d-inline-block {
+    display: none !important;
+  }
+}

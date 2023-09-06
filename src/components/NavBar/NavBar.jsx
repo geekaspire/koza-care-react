@@ -2,8 +2,17 @@
 
 import LogoImage from "../../assets/images/logo/logo.png";
 import PhoneIcon from "../../assets/images/icon/phone.svg";
+import { useState } from "react";
+import { Drawer } from "antd";
 
 const NavBar = () => {
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
   return (
     <>
       <header className="header-area">
@@ -133,7 +142,11 @@ const NavBar = () => {
                   {/* <!-- Header Button Start !-->
                 <!-- Mobile Menu Toggle Button Start !--> */}
                   <div className="mobile-menu-bar d-lg-none text-end">
-                    <a href="#" className="mobile-menu-toggle-btn">
+                    <a
+                      href="#"
+                      className="mobile-menu-toggle-btn"
+                      onClick={showDrawer}
+                    >
                       <i className="fal fa-bars"></i>
                     </a>
                   </div>
@@ -147,61 +160,62 @@ const NavBar = () => {
       </header>
 
       {/* MOBILE NAVBAR COMPONENT */}
-      <div className="menu-sidebar-area">
-        <div className="menu-sidebar-wrapper">
-          <div className="menu-sidebar-close">
-            <button
-              className="menu-sidebar-close-btn"
-              id="menu_sidebar_close_btn"
-            >
-              <i className="fal fa-times"></i>
-            </button>
-          </div>
-          <div className="menu-sidebar-content">
-            <div className="menu-sidebar-logo">
-              <a href="index.html">
-                <img src="images/logo/logo.png" alt="logo" />
-              </a>
-            </div>
-            <div className="mobile-nav-menu"></div>
+      <Drawer
+        // title="Basic Drawer"
+        placement="right"
+        onClose={onClose}
+        open={open}
+        headerStyle={null}
+      >
+        <div className="menu-sidebar-area">
+          <div className="menu-sidebar-wrapper">
             <div className="menu-sidebar-content">
-              <div className="menu-sidebar-single-widget">
-                <h5 className="menu-sidebar-title">Contact Info</h5>
-                <div className="header-contact-info">
-                  <span>
-                    <i className="fa-solid fa-location-dot"></i>20, Bordeshi,
-                    New York, US
-                  </span>
-                  <span>
-                    <a href="mailto:hello@transico.com">
-                      <i className="fa-solid fa-envelope"></i>hello@transico.com
+              <div className="menu-sidebar-logo">
+                <a href="index.html">
+                  <img src={LogoImage} alt="logo" />
+                </a>
+              </div>
+              <div className="mobile-nav-menu"></div>
+              <div className="menu-sidebar-content">
+                <div className="menu-sidebar-single-widget">
+                  <h5 className="menu-sidebar-title">Contact Info</h5>
+                  <div className="header-contact-info">
+                    <span>
+                      <i className="fa-solid fa-location-dot"></i>Koza Aesthetic
+                      Care - Bannerghatta Road
+                    </span>
+                    <span>
+                      <a href="mailto:hello@transico.com">
+                        <i className="fa-solid fa-envelope"></i>
+                        hello@s.com
+                      </a>
+                    </span>
+                    <span>
+                      <a href="tel:+9109606073175">
+                        <i className="fa-solid fa-phone"></i>+ 096060 73175
+                      </a>
+                    </span>
+                  </div>
+                  <div className="social-profile">
+                    <a href="#">
+                      <i className="fa-brands fa-facebook-f"></i>
                     </a>
-                  </span>
-                  <span>
-                    <a href="tel:+123-456-7890">
-                      <i className="fa-solid fa-phone"></i>+123-456-7890
+                    <a href="#">
+                      <i className="fa-brands fa-twitter"></i>
                     </a>
-                  </span>
-                </div>
-                <div className="social-profile">
-                  <a href="#">
-                    <i className="fa-brands fa-facebook-f"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-twitter"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                  <a href="#">
-                    <i className="fa-brands fa-youtube"></i>
-                  </a>
+                    <a href="#">
+                      <i className="fa-brands fa-linkedin-in"></i>
+                    </a>
+                    <a href="#">
+                      <i className="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </Drawer>
     </>
   );
 };
