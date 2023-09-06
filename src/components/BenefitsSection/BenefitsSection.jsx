@@ -14,7 +14,7 @@ const BenefitsSection = () => {
         <div className="container">
           <div className="feature-container">
             <img className="shape-1" src={ShapeTwo} alt="shape-1" />
-            <h2 className="title">Benefits with EyeWell</h2>
+            <h2 className="title">Benefits with Koza</h2>
             <div className="feather-item-wrapper">
               <div className="feature-item">
                 <div className="icon-wrapper">
