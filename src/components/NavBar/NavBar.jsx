@@ -43,17 +43,17 @@ const NavBar = () => {
                       <span>Sun-Thu 09:00AM-08:00PM </span>
                     </div>
                     <div className="social-profile">
-                      <a href="#">
-                        <i className="icon-facebook"></i>
+                      <a href="https://m.facebook.com/kozaaestheticare/">
+                        <i className="bi bi-facebook"></i>
                       </a>
-                      <a href="#">
-                        <i className="icon-twitter"></i>
+                      <a href="https://www.linkedin.com/company/koza-aesthetic-care">
+                        <i className="bi bi-linkedin"></i>
                       </a>
-                      <a href="#">
-                        <i className="icon-linkedin"></i>
+                      <a href="https://www.instagram.com/koza.aesthetic.care/?hl=en">
+                        <i className="bi bi-instagram"></i>
                       </a>
-                      <a href="#">
-                        <i className="icon-dribbble"></i>
+                      <a href="https://api.whatsapp.com/send/?phone=919606073175&text&type=phone_number&app_absent=0">
+                        <i className="bi bi-whatsapp"></i>
                       </a>
                     </div>
                   </div>
@@ -197,18 +197,20 @@ const NavBar = () => {
                     </span>
                   </div>
                   <div className="social-profile">
-                    <a href="#">
-                      <i className="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-linkedin-in"></i>
-                    </a>
-                    <a href="#">
-                      <i className="fa-brands fa-youtube"></i>
-                    </a>
+                    <div className="social-profile">
+                      <a href="https://m.facebook.com/kozaaestheticare/">
+                        <i className="bi bi-facebook"></i>
+                      </a>
+                      <a href="https://www.linkedin.com/company/koza-aesthetic-care">
+                        <i className="bi bi-linkedin"></i>
+                      </a>
+                      <a href="https://www.instagram.com/koza.aesthetic.care/?hl=en">
+                        <i className="bi bi-instagram"></i>
+                      </a>
+                      <a href="https://api.whatsapp.com/send/?phone=919606073175&text&type=phone_number&app_absent=0">
+                        <i className="bi bi-whatsapp"></i>
+                      </a>
+                    </div>
                   </div>
                 </div>
               </div>

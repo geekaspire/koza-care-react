@@ -3050,6 +3050,10 @@ body.admin-bar .header-menu-area.sticky_menu {
   content: "\e91d";
 }
 
+.icon-instagram:before {
+  content: "\ea92";
+}
+
 .icon-price-tag-1:before {
   content: "\e91e";
 }
