@@ -135,7 +135,7 @@ const NavBar = () => {
                         <span>Need help?</span> Call us:{" "}
                       </span>
                       <span className="text">
-                        <a href="tel:+8001234567890">(+91) 096 060 73175</a>
+                        <a href="tel:+919606009079">(+91) 960 600 9079</a>
                       </span>
                     </div>
                   </div>

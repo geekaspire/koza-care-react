@@ -110,8 +110,8 @@ const AboutUsSection = () => {
                       <p>
                         <span>Need held?</span> Call us:
                       </p>
-                      <a href="tel:+91 096 060 73175">
-                        <h6>(+91) 096 060 73175</h6>
+                      <a href="tel:+91 9606009079">
+                        <h6>(+91) 960 600 9079</h6>
                       </a>
                     </div>
                   </div>
