@@ -33,15 +33,16 @@ const NavBar = () => {
                       </span>
                     </span> */}
                     <span>
-                      <a href="mailto:hello@transico.com">
-                        <i className="icon-email"></i>Email: sample@example.com
+                      <a href="mailto:kozaaestheticcare@gmail.com">
+                        <i className="icon-email"></i>Email:
+                        kozaaestheticcare@gmail.com
                       </a>
                     </span>
                   </div>
                   <div className="social-wrapper">
                     <div className="time">
-                      <i className="icon-time"></i>
-                      <span>Sun-Thu 09:00AM-08:00PM </span>
+                      {/* <i className="icon-time"></i> */}
+                      <span>Follow us: </span>
                     </div>
                     <div className="social-profile">
                       <a href="https://m.facebook.com/kozaaestheticare/">

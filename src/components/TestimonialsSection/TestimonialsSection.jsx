@@ -30,10 +30,11 @@ const TestimonialsSection = () => {
             </div>
             <div className="col-lg-6">
               <p className="section-desc">
-                Providing legal advice, contract drafting, compliance
-                assistance, intellectual <br /> property protection, and other
-                legal support for businesses. Creating visual <br /> content,
-                such as logos, brochures, infographics.{" "}
+                With so much love from our patients in digital and physical
+                world, we lead all competitive brands with a significant margin
+                in results, liking, services and value for money quality
+                offerings. We are in immense gratitude of our esteemed clients
+                whom we give the utmost priority and value their feedbacks.
               </p>
             </div>
           </div>
