@@ -34,7 +34,15 @@ const HeroSection = () => {
                       </div>
                       {/* <!-- Slider Container Icon Area End --> */}
                       <span className="slider-short-title">
-                        Get world class solution from our Experts
+                        <span
+                          style={{
+                            backgroundColor: "#fcc0bf",
+                            color: "#fff",
+                            overflow: "hidden",
+                          }}
+                        >
+                          Get world class solution from our Experts
+                        </span>
                       </span>
                       <h1 className="slider-title">
                         We are one stop solution for all Beauty & Wellness

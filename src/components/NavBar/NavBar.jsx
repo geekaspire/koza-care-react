@@ -23,14 +23,15 @@ const NavBar = () => {
               <div className="col-12 d-flex align-items-center justify-content-between">
                 <div className="header-top-info">
                   <div className="header-contact-info">
-                    <span>
+                    {/* <span>
                       <span className="contact-info-item">
                         <i className="icon-pin-2"></i>Address :{" "}
                         <a href="https://goo.gl/maps/JbVYzcZm2afBx4176">
-                          Koza Aesthetic Care - Bannerghatta Road
+                          S. No. 54, Site No. 14/2, 3rd Floor, RS Emporia, Hosur
+                          Rd, RS Gardens, Bommasandra, Karnataka
                         </a>
                       </span>
-                    </span>
+                    </span> */}
                     <span>
                       <a href="mailto:hello@transico.com">
                         <i className="icon-email"></i>Email: sample@example.com
@@ -52,7 +53,7 @@ const NavBar = () => {
                       <a href="https://www.instagram.com/koza.aesthetic.care/?hl=en">
                         <i className="bi bi-instagram"></i>
                       </a>
-                      <a href="https://api.whatsapp.com/send/?phone=919606073175&text&type=phone_number&app_absent=0">
+                      <a href="https://api.whatsapp.com/send/?phone=919606009079&text&type=phone_number&app_absent=0">
                         <i className="bi bi-whatsapp"></i>
                       </a>
                     </div>
@@ -134,7 +135,7 @@ const NavBar = () => {
                       <span className="title">
                         <span>Need help?</span> Call us:{" "}
                       </span>
-                      <span className="text">
+                      <span className="text" style={{ fontSize: 21 }}>
                         <a href="tel:+919606009079">(+91) 960 600 9079</a>
                       </span>
                     </div>
@@ -207,7 +208,7 @@ const NavBar = () => {
                       <a href="https://www.instagram.com/koza.aesthetic.care/?hl=en">
                         <i className="bi bi-instagram"></i>
                       </a>
-                      <a href="https://api.whatsapp.com/send/?phone=919606073175&text&type=phone_number&app_absent=0">
+                      <a href="https://api.whatsapp.com/send/?phone=919606009079&text&type=phone_number&app_absent=0">
                         <i className="bi bi-whatsapp"></i>
                       </a>
                     </div>

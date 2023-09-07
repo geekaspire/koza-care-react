@@ -36,7 +36,7 @@ const Footer = () => {
                     <a href="https://www.instagram.com/koza.aesthetic.care/?hl=en">
                       <i className="bi bi-instagram"></i>
                     </a>
-                    <a href="https://api.whatsapp.com/send/?phone=919606073175&text&type=phone_number&app_absent=0">
+                    <a href="https://api.whatsapp.com/send/?phone=919606009079&text&type=phone_number&app_absent=0">
                       <i className="bi bi-whatsapp"></i>
                     </a>
                   </div>

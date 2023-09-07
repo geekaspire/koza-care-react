@@ -3,6 +3,8 @@
 import { Carousel } from "antd";
 import HexAngleImage from "../../assets/images/shapes/hexa-angle.png";
 
+// import Port from "../../assets/images/portfolio/portfolio1.jpg";
+
 const TestimonialsSection = () => {
   return (
     <div className="testimonial-area-wrapper">
@@ -36,21 +38,102 @@ const TestimonialsSection = () => {
             </div>
           </div>
           <div className="testimonial-card-wrapper">
+            {/* <div
+              className="portfolio-slider-area style-1"
+              style={{ marginBottom: 50 }}
+            >
+              <div className="row gy-4 gy-lg-0 m-0">
+                <div className="col-lg-3 col-6 p-0 m-0">
+                  <div className="img-content-wrapper">
+                    <div className="img-wrapper">
+                      <img className="image" src={Port} alt="" />
+                    </div>
+                    <div className="content">
+                      <a href={Port}>
+                        <i className="bi bi-play-circle-fill"></i>
+                      </a>
+                      <div className="content-title">
+                        <a href="#">
+                          <h4>Surgical Procedures</h4>
+                        </a>
+                        <a href="#">
+                          <span>Residential</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-3 col-6 p-0 m-0">
+                  <div className="img-content-wrapper">
+                    <div className="content">
+                      <a href={Port}>
+                        <i className="bi bi-play-circle-fill"></i>
+                      </a>
+                      <div className="content-title">
+                        <a href="#">
+                          <h4>Surgical Procedures</h4>
+                        </a>
+                        <a href="#">
+                          <span>Residential</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="img-wrapper">
+                      <img className="image" src={Port} alt="" />
+                    </div>
+                  </div>
+                </div>
+
+                <div className="col-lg-3 col-6 p-0 m-0">
+                  <div className="img-content-wrapper">
+                    <div className="content">
+                      <a href={Port}>
+                        <i className="bi bi-play-circle-fill"></i>
+                      </a>
+                      <div className="content-title">
+                        <a href="#">
+                          <h4>Surgical Procedures</h4>
+                        </a>
+                        <a href="#">
+                          <span>Residential</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="img-wrapper">
+                      <img className="image" src={Port} alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-6 p-0 m-0">
+                  <div className="img-content-wrapper">
+                    <div className="content">
+                      <a href="images/portfolio/large/portfolio2.jpg">
+                        <i className="bi bi-play-circle-fill"></i>
+                      </a>
+                      <div className="content-title">
+                        <a href="#">
+                          <h4>Surgical Procedures</h4>
+                        </a>
+                        <a href="#">
+                          <span>Residential</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div className="img-wrapper">
+                      <img className="image" src={Port} alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> */}
             <div
               id="testimonial_one"
               className="slick-initialized slick-slider"
             >
-              {/* <button
-                type="button"
-                className="testimonial-arrow-btn prev-btn slick-arrow"
-                style={{ display: "block" }}
-              >
-                <i className="fa-solid fa-angle-left"></i>
-              </button> */}
-
               <div className="slick-list draggable">
                 <div className="">
-                  <Carousel autoplay>
+                  <Carousel>
                     <div>
                       <div
                         className="col-md-6 col-xl-4 slick-slide slick-cloned"
@@ -73,12 +156,12 @@ const TestimonialsSection = () => {
                               would definitely recommend everyone who are in
                               need of skin treatment to visit this place.
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Muskaan A</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">Muskaan A</h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -102,12 +185,14 @@ const TestimonialsSection = () => {
                               your requirements during the procedure and
                               sessions .
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Aditya Mangalgatti</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">
+                                  Aditya Mangalgatti
+                                </h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -129,12 +214,12 @@ const TestimonialsSection = () => {
                               treatment for it , i can see the result within a
                               month. All is well☺️
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Vijaya Dasappa</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">Vijaya Dasappa</h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -162,12 +247,12 @@ const TestimonialsSection = () => {
                               are not only highly skilled and knowledgeable but
                               also genuinely caring.
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Aslam sha R S</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">Aslam sha R S</h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -189,12 +274,12 @@ const TestimonialsSection = () => {
                               businesses. Creating visual content, such as
                               logos, brochures, infographics.{" "}
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Roberten Fox</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">Roberten Fox</h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -216,12 +301,12 @@ const TestimonialsSection = () => {
                               businesses. Creating visual content, such as
                               logos, brochures, infographics.{" "}
                             </p>
-                          </div>
-                          <div className="meta-info">
-                            <a href="#">
-                              <h4 className="user-name">Jane Cooper</h4>
-                            </a>
-                            <p className="desc">Customer</p>
+                            <div className="meta-info">
+                              <a href="#">
+                                <h4 className="user-name">Jane Cooper</h4>
+                              </a>
+                              <p className="desc">Customer</p>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -229,18 +314,10 @@ const TestimonialsSection = () => {
                   </Carousel>
                 </div>
               </div>
-              {/* <button
-                type="button"
-                className="testimonial-arrow-btn next-btn slick-arrow"
-                style={{ display: "block" }}
-              >
-                <i className="fa-solid fa-angle-right"></i>
-              </button> */}
             </div>
           </div>
         </div>
       </div>
-      {/* <!-- Testimonial-area style-1 End  --> */}
     </div>
   );
 };
