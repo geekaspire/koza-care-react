@@ -4,7 +4,7 @@ import HeroImage from "../../assets/images/slider/slider-1.png";
 
 const HeroSection = () => {
   return (
-    <div className="slider-area style-1">
+    <div className="slider-area style-1" style={{ backgroundColor: "#FBEEE6" }}>
       {/* <!-- Slider Wrapper Start --> */}
       <div className="slider-wrapper">
         {/* <!-- Single Slider Start --> */}

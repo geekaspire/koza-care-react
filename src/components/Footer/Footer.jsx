@@ -95,11 +95,17 @@ const Footer = () => {
                 <h2 className="footer-widget-title">ABOUT US</h2>
                 <div className="widget_opening_time">
                   <div className="single-date-time">
-                    <span className="day">Locate us:</span>
+                    <span className="day">
+                      ADDRESS:{" "}
+                      <small>
+                        S. No. 54, Site No. 14/2, 3rd Floor, RS Emporia, Hosur
+                        Rd, RS Gardens, Bommasandra, Karnataka 560099
+                      </small>
+                    </span>
                   </div>
                   <div>
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15556.739618735066!2d77.5963066!3d12.8958289!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1503fdb7e17f%3A0x14bd27bbc5276b94!2sKoza%20Aesthetic%20Care%20-%20Bannerghatta%20Road!5e0!3m2!1sen!2sin!4v1693976795100!5m2!1sen!2sin"
+                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15561.227652559022!2d77.6853136!3d12.8234333!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6d73c928c0ff%3A0x38974917866e54e3!2sKOZA%20Aesthetic%20Care%20-%20E%20City!5e0!3m2!1sen!2sin!4v1694096611242!5m2!1sen!2sin"
                       width="600"
                       height="250"
                       // style="border:0;"

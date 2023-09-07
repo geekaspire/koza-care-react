@@ -133,7 +133,7 @@ const TestimonialsSection = () => {
             >
               <div className="slick-list draggable">
                 <div className="">
-                  <Carousel>
+                  <Carousel autoplay>
                     <div>
                       <div
                         className="col-md-6 col-xl-4 slick-slide slick-cloned"
@@ -146,19 +146,19 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc" style={{ height: 250 }}>
-                              It’s a very good place to get your skin treatment.
-                              I have personally experienced it. The staff is
-                              very friendly. They explain you about the
-                              treatment and the products and machines that they
-                              use, which is very important for a patient to
-                              know. The results are also quite impressive. I
-                              would definitely recommend everyone who are in
-                              need of skin treatment to visit this place.
+                            <p className="desc" style={{ height: 150 }}>
+                              Got hydra facial and lactic peel done, Great
+                              service by staff
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMT_LICcELq3CtBD-tpNenO7knHPb9yg9z5PwdlcT0nXi5U=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">Muskaan A</h4>
+                                <h4 className="user-name">Neha Varshney</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
@@ -176,20 +176,21 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc" style={{ height: 250 }}>
-                              Koza is a modern, well equipped skin care clinic
-                              with very professional and empathetic staff and
-                              more than anything else, (in my experience) it
-                              shows result of the treatment faster than
-                              expected. They do adjust and are flexible with
-                              your requirements during the procedure and
-                              sessions .
+                            <p className="desc" style={{ height: 150 }}>
+                              Hydra facial is really good treatment to do
+                              because it makes my skin glowing and healthy. The
+                              initial results typically last a few days, but my
+                              overall skin health is improved after a week..
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMQZ41pQ_po7fsHOkepLSFalCaXqIAs-T09BRnv2gaGP2jM=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">
-                                  Aditya Mangalgatti
-                                </h4>
+                                <h4 className="user-name">Priya.C</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
@@ -207,16 +208,22 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc" style={{ height: 250 }}>
-                              I had a great experience with the clinic.
-                              Dr.Yashaswini is extremely good and the staff are
-                              very supportive. I had scars i started taking
-                              treatment for it , i can see the result within a
-                              month. All is well☺️
+                            <p className="desc" style={{ height: 150 }}>
+                              This is becomes my one of the favorite place, very
+                              friendly environment and staff. I have come here
+                              for my hair fall issue and consulted Doctor sajida
+                              , she is a fabulous person and knowledgeable and
+                              am satisfied with my treatment.
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMQXs2RUdnAAlVXAxpnx0xYpGv2122xvJDTlx1ZFUiu3Cas=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">Vijaya Dasappa</h4>
+                                <h4 className="user-name">Riha Shahi</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
@@ -236,20 +243,20 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc">
-                              An Outstanding Experience at Koza aesthetic. I
-                              recently visited for a rejuvenating experience,
-                              and I must say it exceeded all my expectations.
-                              From the moment I walked through the door, I was
-                              greeted with warm smiles and a serene ambiance
-                              that instantly put me at ease. The staff at Kosa
-                              is exceptional, especially Raju, staff nurse. They
-                              are not only highly skilled and knowledgeable but
-                              also genuinely caring.
+                            <p className="desc" style={{ height: 150 }}>
+                              Its was my best experience,at koza e-city branch
+                              where i have taken my hair treatment,n seen very
+                              good results in it, Must recommend place!
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMTAmu4woefRu9eeAtPP3YGs0v9j6UkVgeX7n9LG6-LDkI8=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">Aslam sha R S</h4>
+                                <h4 className="user-name">Shaziya Shariff</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
@@ -267,16 +274,20 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc">
-                              Providing legal advice, contract drafting,
-                              compliance assistance, intellectual property
-                              protection, and other legal support for
-                              businesses. Creating visual content, such as
-                              logos, brochures, infographics.{" "}
+                            <p className="desc" style={{ height: 150 }}>
+                              I had 4 laser sessions and I see really great
+                              results already! Aglaia is amazing, very attentive
+                              and knowledgeable!
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMQricNQV4V3irsmwKIVfLiqpbEuSYsbzzfJ5tUoSpdohtc=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">Roberten Fox</h4>
+                                <h4 className="user-name">Shiji P S</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
@@ -294,16 +305,21 @@ const TestimonialsSection = () => {
                             <div className="icon">
                               <i className="icon-Vector"></i>
                             </div>
-                            <p className="desc">
-                              Providing legal advice, contract drafting,
-                              compliance assistance, intellectual property
-                              protection, and other legal support for
-                              businesses. Creating visual content, such as
-                              logos, brochures, infographics.{" "}
+                            <p className="desc" style={{ height: 150 }}>
+                              Joining koza Aesthetic Ecity was The best decision
+                              I made The Entire team is so warm and I am
+                              Extremely Happy with My Pimple Skin treatment..
+                              Results was amizg pls vist..😍
                             </p>
+                            <div className="user-img">
+                              <img
+                                src="https://lh3.googleusercontent.com/a-/AD_cMMR_olww8Icq-1FuM6QLBCbxLfu6vALPrbMGpfu0hvJVrVU=w100-h100-p-rp-mo-br100"
+                                alt="testimonial"
+                              />
+                            </div>
                             <div className="meta-info">
                               <a href="#">
-                                <h4 className="user-name">Jane Cooper</h4>
+                                <h4 className="user-name">Sapna Naidu</h4>
                               </a>
                               <p className="desc">Customer</p>
                             </div>
