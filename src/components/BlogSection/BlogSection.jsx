@@ -18,8 +18,7 @@ const BlogSection = () => {
             </div>
           </div>
           <h1 className="title">
-            <span>Keep You</span> Informed with <br />
-            Our Blog
+            <span>Keep You</span> Informed with Our Blog
           </h1>
         </div>
         <div className="post-card-wrapper">

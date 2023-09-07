@@ -262,23 +262,15 @@ const ServicesSection = () => {
             <div className="list-wrapper">
               <div className="list-item">
                 <span className="check"></span>
-                <p className="text">---</p>
+                <p className="text">Vaginal Rejuvenation Treatment</p>
               </div>
               <div className="list-item">
                 <span className="check"></span>
-                <p className="text">---</p>
+                <p className="text">Vaginal reconstruction & rejuvenation</p>
               </div>
               <div className="list-item">
                 <span className="check"></span>
-                <p className="text">---</p>
-              </div>
-              <div className="list-item">
-                <span className="check"></span>
-                <p className="text">---</p>
-              </div>
-              <div className="list-item">
-                <span className="check"></span>
-                <p className="text">---</p>
+                <p className="text">Hymenoplasty</p>
               </div>
             </div>
             <div className="read-more-wrapper">
